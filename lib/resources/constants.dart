@@ -1,3 +1,3 @@
 class Constants {
-  static String BASE_URL = "https://jsonplaceholder.typicode.com/users";
+  static const String BASE_URL = "https://jsonplaceholder.typicode.com/users";
 }

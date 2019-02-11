@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:github_app/blocs/github_users_bloc.dart';
 import 'package:github_app/models/list_item_model.dart';
 import 'package:github_app/models/user.dart';
+import 'package:provider/provider.dart';
+
 import 'profile/user_profile.dart';
 
 class UsersList extends StatefulWidget {

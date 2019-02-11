@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:github_app/blocs/github_users_bloc.dart';
+import 'package:provider/provider.dart';
+
 import 'users_list_view.dart';
 
 class GitHubApp extends StatelessWidget {

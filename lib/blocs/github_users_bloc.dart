@@ -1,11 +1,12 @@
 import 'dart:convert';
+
+import 'package:github_app/models/list_item_model.dart';
+import 'package:github_app/models/serializers.dart';
 import 'package:github_app/models/user.dart';
 import 'package:github_app/models/user_list.dart';
-import 'package:http/http.dart' as http;
 import 'package:github_app/resources/constants.dart';
-import 'package:github_app/models/serializers.dart';
+import 'package:http/http.dart' as http;
 import 'package:rxdart/rxdart.dart';
-import 'package:github_app/models/list_item_model.dart';
 
 class GitHubUsersBloc {
   bool _isLoading = false;
